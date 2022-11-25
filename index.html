@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!--
+ <form name ="myForm" method="post">
+        <label for="name">First name:</label>
+        <input type="text" id="name" name="name" onkeyup="validateName()">
+<span id = "name-error"></span><br> <br>
+        <label for="psw">Password</label>
+    <input type="password" id="psw" name="psw"><br> <br>
+       
+    <input type="submit" onclick="validated" value="Submit">
+      </form>
+      -->  
+
+    
+
+    <div class="Container">
+        <h2>Register Here</h2>
+        <form name ="myForm" method="post">
+            <div class="form-control">
+            <label for="username">Username:</label>
+            <input type="text" id="name" name="name" placeholder="Username" onclick="validateName()" required>
+            <br>
+             <span id = "name-error"></span>
+            </div>
+
+            <div class="form-control">
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="mail" placeholder="E-mail" >
+                <br>
+                 <span id = "mail-error"></span>
+               
+                </div>
+
+              <div class="form-control">
+            <label for="psw">Password</label>
+        <input type="password" id="psw" name="psw" placeholder="Password">
+        <br>
+        <span id = "psw-error"></span>
+      </div>
+       
+   
+
+   <p><a href="#">Forget Password</a> </p>
+           
+    <button>LogIN</button>
+          </form>
+        </div>
+   
+
+    </div>
+  </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
